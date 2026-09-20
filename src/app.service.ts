@@ -3,6 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): any {
-    return { key: 'hi', date: 'now', number: 1 };
+    console.log('Server run with Port');
+    return true;
   }
 }
